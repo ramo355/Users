@@ -1,0 +1,10 @@
+.Input {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 15px; */
+}
+
+label {
+    margin-right: 15px;
+}

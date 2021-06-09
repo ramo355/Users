@@ -1,0 +1,12 @@
+.Form {
+    border: 1px solid grey;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.Form button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

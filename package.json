@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "MERN",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "test": "npm run start --prefix test",
+    "dev": "concurrently \"npm run server\" \"npm run test\""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Andrei Kuzmich <kuzmichipad@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
